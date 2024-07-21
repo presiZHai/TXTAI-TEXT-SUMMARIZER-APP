@@ -23,7 +23,7 @@ def extract_text_from_pdf(file_path):
 choice = st.sidebar.selectbox("Select", ["Summarize Text", "Summarize Document"])
 
 if choice == "Summarize Text":
-    st.subheader("Text Summarization with txtai")
+    st.subheader("TextQuickSynth with txtai")
     input_text = st.text_area("Enter text here")
     if input_text is not None:
         if st.button("Summarize Text"):
@@ -37,7 +37,7 @@ if choice == "Summarize Text":
                 st.success(result)
 
 elif choice == "Summarize Document":
-    st.subheader("Document Summarization with txtai")
+    st.subheader("DocQuickSynth with txtai")
     input_file = st.file_uploader("Upload document here", type=['pdf'])
     if input_file is not None:
         if st.button("Summarize Document"):
