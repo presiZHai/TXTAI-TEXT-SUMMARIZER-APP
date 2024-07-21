@@ -1,0 +1,4 @@
+txtai
+streamlit
+PyPDF2
+transformers

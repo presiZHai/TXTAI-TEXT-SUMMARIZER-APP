@@ -1,1 +1,1 @@
-# TXTAI-TEXT-SUMMARIZER-APP
+# Text Summarizer
