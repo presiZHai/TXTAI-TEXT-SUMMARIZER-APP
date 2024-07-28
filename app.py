@@ -37,7 +37,7 @@ if choice == "Summarize Text":
                 st.success(result)
 
 elif choice == "Summarize Document":
-    st.subheader("DocQuickSynth with txtai")
+    st.subheader("Summary Forge")
     input_file = st.file_uploader("Upload document here", type=['pdf'])
     if input_file is not None:
         if st.button("Summarize Document"):
